@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.asd{
+    color: white;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.ee{
+    background-color: grey;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+
+}
+
+.rrr{
+    text-align: center;
+}
+
+
+nav{
+    background-color: rgb(123, 3, 153);
+    color: white;
+    padding: 12px;
+}
+
+span{
+    margin: 10px;
+}
+
+input{
+    margin-left: 85%;
+    padding: 10px 20px;
+}
