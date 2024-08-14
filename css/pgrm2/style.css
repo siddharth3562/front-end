@@ -1,0 +1,15 @@
+.container{
+    background-image: url("../../tasks/task1/images/download\ \(1\).jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
