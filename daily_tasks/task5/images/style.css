@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    margin: 0px 20px;
+}
+
+.content p{
+    margin: 0px 20px;
+    color: gray;
+}
+
+.container1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.left{
+    flex: 2;
+    background-color: blueviolet;
+}
+
+.right{
+    flex: 1;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.image>img{
+    width: 100%;
+}
