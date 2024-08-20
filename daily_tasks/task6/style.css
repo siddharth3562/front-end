@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(194, 233, 220);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.child1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.child2{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.gchild1{
+    flex: 1;
+    font-size: small;
+    color: gray;
+}
+
+.gchild2{
+    flex: 1;
+    font-size: small;
+    color: gray;
+}
+
+.child2 input{
+    padding: 10px 130px 10px 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.child3{
+    color: gray;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.child3 input{
+    padding: 10px 440px 10px 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+.child4 p{
+    color: gray;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.child5{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gchild51{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 170px 10px 0px;
+}
+
+.gchild52{
+    border: 1px solid gray;
+    padding: 10px 170px 10px 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.child6{
+    color: gray;
+    font-size: large;
+    margin-top: 30px;
+}
+
+
+
+.child6 input{
+    padding: 36px 440px 36px 0px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.child7{
+    margin-top: 30px;
+    font-size: small;
+    color: gray;
+}
+
+.child7 label {
+    margin-left: 10px; 
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(29, 126, 92);
+    color: white;
+    border: 0;
+
+}
