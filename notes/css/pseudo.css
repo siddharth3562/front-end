@@ -1,0 +1,32 @@
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 16px 40px;
+    transition: .2s;
+}
+
+.btn:hover{
+    background-color: rgb(42, 8, 74);
+    color: aqua;
+}
+
+.btn:active{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+/* li:nth-child(3){
+    color: blue;
+} */
+
+li:first-child{
+    color: aqua;
+}

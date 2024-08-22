@@ -1,0 +1,135 @@
+.nav {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 74%;
+    margin-bottom: 30px;
+}
+
+.image {
+    margin-right: auto;
+}
+
+.nav span {
+    margin-left: 20px;
+    color: gray;
+}
+
+/* Second Container ------------------------------------------------ */
+
+.parent1 {
+    display: flex;
+    max-width: 100%;
+    margin: 0 200px;
+}
+
+.child1 {
+    flex: 2;
+    margin-right: 40px;
+    height: auto;
+    position: relative;
+}
+
+.child1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-child1, .sub-child2 {
+    flex: 1;
+    margin-right: 20px;
+}
+.sub-child2 p{
+    color: gray;
+}
+.sub-child1 h1{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.sub-child2 button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fa1e4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sub-child2 button:hover {
+    background-color: #0056b3;
+}
+
+.child2 {
+    background-color: black;
+    color: white;
+    flex: 1;
+    height: 55vh;
+    padding: 20px;
+}
+
+.child2 h1 {
+    color: rgb(233, 152, 23);
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* Third Container -------------------------------------------------------- */
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    height: 22vh;
+}
+
+.p2child {
+    flex: 1;
+    display: flex;
+    margin-right: 20px;
+}
+
+.p2child:last-child {
+    margin-right: 0;
+}
+
+.p2child img {
+    object-fit: cover;
+    height: 20vh;
+    margin-right: 10px;
+}
+
+.p2child h1 {
+    color: red;
+}
+
+.p2gchild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p2gchild p {
+    margin: 0;
+}
+
+
+@media (max-width: 767px) {
+    .parent1 {
+        flex-direction: column;
+    }
+
+    .child1, .child2 {
+        width: 100%;
+    }
+}
