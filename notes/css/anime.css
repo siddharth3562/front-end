@@ -53,11 +53,11 @@
     10%{background-color: blueviolet;left: 12px; top: 632px;}
     20%{background-color: chartreuse;left: 452px; top: 323px;}
     30%{background-color: orangered;left: 400px; top: 10px;}
-    40%{background-color: deeppink;left: 345px; top: 500px;}
+    40%{background-color: deeppink;left: 45px; top: 500px;}
     50%{background-color: rgb(255, 0, 0);left: 1200px; top: 100px;}
     60%{background-color: navy;left: 1000px; top: 0px;}
     70%{background-color: rgb(22, 167, 6);left: 100px; top: 650px;}
-    80%{background-color: maroon;left: 1400px; top: 300px;}
+    80%{background-color: maroon;left: 40px; top: 300px;}
     90%{background-color: rgb(7, 1, 13);left: 1200px; top: 20px;}
     100%{background-color: aqua;left: 0px; top: 0px;}
 }
@@ -71,7 +71,7 @@
     50%{background-color: rgb(255, 0, 0);left: 1200px; top: 100px;}
     60%{background-color: navy;left: 200px; top: 600px;}
     70%{background-color: rgb(22, 167, 6);left: 100px; top: 350px;}
-    80%{background-color: maroon;left: 800px; top: 300px;}
+    80%{background-color: maroon;left: 0px; top: 300px;}
     90%{background-color: rgb(7, 1, 13);left: 400px; top: 100px;}
     100%{background-color: aqua;left: 500px; top: 0px;}
 }
