@@ -420,6 +420,9 @@ hr{
     margin-top: 10px;
 }
 
+.grid-container::-webkit-scrollbar{
+    display: none;
+}
 .grid-item {
     width: 450px;
     height: 250px;
@@ -457,8 +460,167 @@ hr{
 }
 
 .review p{  
-    
+
     color: rgb(110, 107, 107);
     margin-top: 10px;
     margin-left: 20px;
+}
+
+
+.like{
+    margin-top: 100px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.like1{
+    display: flex;
+}
+
+.like1 span{
+    color: black;
+}
+
+.like1 p{
+    color: #333;
+}
+
+.dislike span{
+    color: #333;
+    margin-left: 20px;
+}
+
+.para{
+    display: flex;
+    margin-left: 150px;
+}
+
+.para p{
+    color: #cbcbce;
+}
+
+
+
+
+.container2 {
+    width: 60%;
+    margin-left: 10%;
+    height: 60vh; 
+    display: grid;
+    grid-template-columns: repeat(10, minmax(225px, 1fr)); 
+    column-gap: 30px;
+    row-gap: 20px;
+    overflow-y: hidden; 
+
+    margin-top: 30px;
+}
+
+.container2::-webkit-scrollbar{
+    display: none;
+}
+
+.container2>div{
+
+    height: 60vh;
+    max-width: 225px;
+}
+
+.gchild1{
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gchild1 img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container2 p{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    color: black;
+}
+
+.container2 span{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2, 
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-legal {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-legal a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    color: #aaa;
 }
