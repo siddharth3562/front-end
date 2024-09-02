@@ -456,7 +456,8 @@ hr{
     color: black;
 }
 
-.review p{
+.review p{  
+    
     color: rgb(110, 107, 107);
     margin-top: 10px;
     margin-left: 20px;
